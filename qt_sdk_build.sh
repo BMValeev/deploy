@@ -32,4 +32,4 @@ cd ..
 cd meta-qt5-extra
 git checkout 79e26686520f2ce5f743975e90116b263a33697f
 cd ..
-patch meta-solidrun-arm-imx6/dynamic-layers/qt5-layer/recipes-qt/qt5/qtbase_%.bbappend /home/deploy/deploy/0001.patch
+#patch meta-solidrun-arm-imx6/dynamic-layers/qt5-layer/recipes-qt/qt5/qtbase_%.bbappend /home/deploy/deploy/0001.patch
