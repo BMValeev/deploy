@@ -1,5 +1,6 @@
 #!/bin/bash
 cd ~/openembedded-core/
+export HOMEFOLDER=$(pwd)
 source oe-init-build-env
 cd .
 cat <<EOM >${HOMEFOLDER}/build/conf/bblayers.conf
