@@ -9,13 +9,13 @@ git clone -b rocko https://github.com/openembedded/meta-openembedded.git
 git clone -b 1.36 https://github.com/openembedded/bitbake.git
 git clone -b rocko https://github.com/schnitzeltony/meta-qt5-extra.git
 git clone -b rocko git://git.yoctoproject.org/meta-security
-git clone -b rocko ssh://git@192.168.0.12:2222/valeev_bm/meta-eleps.git
+#git clone -b rocko ssh://git@192.168.0.12:2222/valeev_bm/meta-eleps.git
 cd meta-qt5
 git checkout fe6dbe144acbcbcbe37f5e9a07a08e414dbce036
 cd ..
-cd meta-eleps
-git checkout b0ea942d54695d44ac104dbaa66abfcda05be27c
-cd ..
+#cd meta-eleps
+#git checkout b0ea942d54695d44ac104dbaa66abfcda05be27c
+#cd ..
 cd meta-freescale
 git checkout affb4b17d3d97ae45bdc4887268ba1d88fccd876
 cd ..
