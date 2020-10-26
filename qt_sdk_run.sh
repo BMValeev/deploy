@@ -1,3 +1,4 @@
+#!/bin/bash
 cd ~/openembedded-core/
 source oe-init-build-env
 cd .
