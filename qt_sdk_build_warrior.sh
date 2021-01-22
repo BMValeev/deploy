@@ -15,7 +15,7 @@ git clone -b rocko https://github.com/SolidRun/meta-solidrun-arm-imx6.git
 git clone -b rocko https://github.com/Freescale/meta-freescale.git
 git clone -b rocko https://github.com/openembedded/meta-openembedded.git
 git clone -b rocko https://github.com/schnitzeltony/meta-qt5-extra.git
-git clone -b rocko http://deploy:cjkvbh1234@192.168.0.12/SDK/meta-eleps.git
+git clone -b warrior http://deploy:cjkvbh1234@192.168.0.12/SDK/meta-eleps.git
 cd bitbake && git checkout d0fb46eead1f23356d8c3bd53a85047521ef29a7 && cd ..
 cd meta-qt5 && git checkout $HASH_QT5 && cd ..
 cd meta-solidrun-arm-imx6 && git checkout $HASH_SOLIDRUN && cd ..
