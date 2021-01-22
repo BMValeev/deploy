@@ -8,7 +8,6 @@ HASH_QT5_EXTRA=79e26686520f2ce5f743975e90116b263a33697f
 HASH_ELEPS=b0ea942d54695d44ac104dbaa66abfcda05be27c
 git clone -b rocko https://github.com/openembedded/openembedded-core.git
 cd openembedded-core && git checkout $HASH_CORE
-export HOMEFOLDER=$(pwd)
 git clone -b 1.36 https://github.com/openembedded/bitbake.git
 git clone -b rocko git://git.yoctoproject.org/meta-security
 git clone -b warrior https://github.com/meta-qt5/meta-qt5.git
@@ -24,9 +23,6 @@ cd meta-freescale && git checkout $HASH_FREESCALE && cd ..
 cd meta-openembedded && git checkout $HASH_OPENEMBEDDED && cd ..
 cd meta-qt5-extra && git checkout $HASH_QT5_EXTRA && cd ..
 cd meta-eleps && git checkout $HASH_ELEPS && cd ..
-cd meta-eleps/structure
-cp -rf . ../..
-cd ../..
 
 
 
