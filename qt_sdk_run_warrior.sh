@@ -38,7 +38,7 @@ BB_DISKMON_DIRS ??= "\
     ABORT,\${SSTATE_DIR},100M,1K \ 
     ABORT,/tmp,10M,1K"
 CONF_VERSION = "1"
-PARALLEL_MAKE ?= "-j 2"
+PARALLEL_MAKE ?= "-j 1"
 BB_NUMBER_THREADS ?= "8"
 MACHINE ??= "solidrun-imx6"
 EXTRA_IMAGE_FEATURES = "debug-tweaks tools-debug dev-pkgs"
@@ -62,4 +62,5 @@ INHERIT += "buildhistory"
 BUILDHISTORY_COMMIT = "1"
 PACKAGECONFIG_append_pn-qtbase =" widgets"
 PACKAGECONFIG_append_pn-qtbase =" icu"
+DISTRO_FEATURES_append = " pam "
 EOM
