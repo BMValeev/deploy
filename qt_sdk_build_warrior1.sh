@@ -5,7 +5,7 @@ HASH_SOLIDRUN=d567d75be8984bd868df9af6108f12fecb049c2d
 HASH_FREESCALE=affb4b17d3d97ae45bdc4887268ba1d88fccd876
 HASH_OPENEMBEDDED=dacfa2b1920e285531bec55cd2f08743390aaf57
 HASH_QT5_EXTRA=79e26686520f2ce5f743975e90116b263a33697f
-#HASH_ELEPS=b0ea942d54695d44ac104dbaa66abfcda05be27c
+#HASH_ELEPS=2ee1110a8e142e578c8f754fe2a5dc4d2330aa71
 git clone -b warrior https://github.com/openembedded/openembedded-core.git
 #cd openembedded-core && git checkout $HASH_CORE
 git clone -b 1.40 https://github.com/openembedded/bitbake.git
